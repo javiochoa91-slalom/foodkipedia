@@ -1,8 +1,23 @@
-# Basic Sample Hardhat Project
+# FoodKipedia DApp
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project is a React DApp that will run in the Ethereum Blockchain. Hardhat environment has been configured to test locally, but also we have setup Ropsten as our default network.
 
-Try running some of the following tasks:
+## Pre Requisites
+
+We need the following to run this project properly:
+
+1. Metamask wallet account.
+2. Alchemy or Infura Project (For Ropsten or Mainnet, not needed for running locally through Hardhat)
+
+### React Commands
+
+```shell
+npm install
+npm start
+```
+
+
+### Hardhat Commands
 
 ```shell
 npx hardhat accounts
